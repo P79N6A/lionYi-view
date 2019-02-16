@@ -1,0 +1,1 @@
+<a href="{{<$v['param']['href']|default:'javascript:;'>}}" class="btn btn-outline bear-btn btn-default btn-sm {{<$v['param']['class']>}}" id="{{<$v['param']['id']>}}" url="{{<$v['param']['url']|default:''>}}"> <i class="{{<$v['param']['icon']|default:'glyphicon glyphicon-plus'>}}" aria-hidden="true" ></i>{{<$v['title']>}} </a> 

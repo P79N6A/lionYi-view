@@ -1,0 +1,25 @@
+{
+    "name": "lion/lion-view",
+    "license": "MIT",
+    "version":"1.0",
+    "authors": [
+        {
+            "name": "Jerry",
+            "email": "502443279@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "lion\\lion-view\\": "src/"
+
+        },
+        "files": [
+            "src/core/sys/helper.php"
+
+        ]
+    }
+
+}
